@@ -1,11 +1,9 @@
 from typing import List
 
-from bun import Bun
-from burger import Burger
-from database import Database
-from ingredient import Ingredient
-from ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
-
+from practikum.bun import Bun
+from practikum.burger import Burger
+from practikum.database import Database
+from practikum.ingredient import Ingredient
 
 
 def main():

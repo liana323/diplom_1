@@ -1,7 +1,4 @@
-
-
-
-from burger import Burger
+from practikum.burger import Burger
 from mock import get_mock_bun, get_mock_ingredient_filling, get_mock_ingredient_sauce
 def test_set_buns():
     burger = Burger()

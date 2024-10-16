@@ -1,6 +1,6 @@
 import pytest
-from bun import Bun
-from tests.conftest import TEST_BUNS
+from practikum.bun import Bun
+from conftest import TEST_BUNS
 
 
 @pytest.mark.parametrize("bun_data", TEST_BUNS)

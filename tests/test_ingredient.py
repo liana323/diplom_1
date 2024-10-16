@@ -1,7 +1,6 @@
-
 import pytest
-from ingredient import Ingredient
-from tests.conftest import TEST_INGREDIENTS
+from practikum.ingredient import Ingredient
+from conftest import TEST_INGREDIENTS
 
 
 @pytest.mark.parametrize("ingredient_type, name, price", TEST_INGREDIENTS)

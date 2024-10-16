@@ -1,6 +1,6 @@
 from unittest.mock import Mock
-from bun import Bun
-from ingredient import Ingredient
+from practikum.bun import Bun
+from practikum.ingredient import Ingredient
 
 
 def get_mock_bun():
